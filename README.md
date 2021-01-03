@@ -17,3 +17,4 @@ songwriters and the album it originally appears on for the specified artist in q
 
 *And of course, all the data will be fetched from genius.com*	
 
+##### author : Jatan Pandya (jpandya)
