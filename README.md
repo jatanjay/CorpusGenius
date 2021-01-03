@@ -6,7 +6,7 @@ _____
 
 ## Table of Contents 
 
-* [What is CorpusGenius] (# general-info)
+* [General Info] (# general-info)
 
 
 
