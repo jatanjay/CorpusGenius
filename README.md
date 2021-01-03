@@ -1,6 +1,22 @@
-# Hello! :wave:
 
-## Welcome to CorpusGenius! 
+
+# CorpusGenius
+
+_____
+
+## Table of Contents 
+
+* [What is CorpusGenius] (# general-info)
+
+
+
+
+
+______
+
+## General info
+
+
 
 CorpusGenius helps you generate a Corpus (along with other meta files) of all the lyrics by user-specified artist, scrapped from Genius.com using genius's API and John W. Miller's excellent *lyricsgenius* wrapper.
 
@@ -17,4 +33,4 @@ songwriters and the album it originally appears on for the specified artist in q
 
 *And of course, all the data will be fetched from genius.com*	
 
-##### author : Jatan Pandya (jpandya)
+##### 
