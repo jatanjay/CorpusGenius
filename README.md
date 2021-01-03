@@ -13,9 +13,14 @@ _____
 ## What is CorpusGenius ? 
 
 Hey! :wave:  
-Glad you asked, CorpusGenius,is robust solution to generate a Corpus containing (along with other meta files, below)  lyrics by user-specified artist, scrapped from Genius.com using genius's API and John W. Miller's excellent *lyricsgenius* wrapper.
 
-By using this python script you'll be able to download:
+Glad you asked, While trying to do a corpus based analysis on Bob Dylan, I quickly noticed that there wasn't a single, updated file containing all the lyrics.   
+In comes CorpusGenius,a robust solution to generate a Corpus containing (along with other meta files, below)  lyrics by user-specified artist, scrapped from Genius.com using genius's API and John W. Miller's *lyricsgenius* wrapper.
+
+Since, rather than skipping directly to lyrics for a song, it follows a waterfall model by going from :
+All Albums --> All songs by albums + unreleased/EPs/Misc songs --> Lyrics by each song --> Final corpus.
+
+Thus, by using this python script you'll be able to download:
 
 1) A CSV file containing all albums released by artist
 2) A CSV file containing all tracks, both by albums and individual song not released as albums.
@@ -56,3 +61,6 @@ _____
 
 > If I have seen further it is by standing on the shoulders of Giants. 
 > 														*-Isaac Newton*
+
+John W. Miller for his excellent lyricsgenius wrapper.
+Authors, countless contributors for the various modules used in the project.
