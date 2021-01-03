@@ -1,6 +1,6 @@
 
 
-# CorpusGenius
+# CorpusGenius.
 
 _____
 
@@ -14,10 +14,11 @@ _____
 
 Hey! :wave:  
 
-Glad you asked, While trying to do a corpus based analysis on Bob Dylan, I quickly noticed that there wasn't a single, updated file containing all the lyrics.   
-In comes CorpusGenius,a robust solution to generate a Corpus containing (along with other meta files, below)  lyrics by user-specified artist, scrapped from Genius.com using genius's API and John W. Miller's *lyricsgenius* wrapper.
+Glad you asked, while performing a corpus based analysis on artist Bob Dylan, I quickly noticed that there wasn't a single, updated file containing all the lyrics.   
+In comes CorpusGenius, a robust solution to generate a Corpus containing (along with other meta files, below)  lyrics by user-specified artist, scrapped from Genius.com using genius's API and John W. Miller's *lyricsgenius* wrapper.
 
 Since, rather than skipping directly to lyrics for a song, it follows a waterfall model by going from :
+
 All Albums --> All songs by albums + unreleased/EPs/Misc songs --> Lyrics by each song --> Final corpus.
 
 Thus, by using this python script you'll be able to download:
@@ -51,6 +52,18 @@ Jatan Pandya / 2020
 
 _____
 
+## Running 
+
+
+
+
+
+
+
+
+
+_____
+
 ## License
 
 Please see LICENSE.md for more details. 
@@ -63,4 +76,5 @@ _____
 > 														*-Isaac Newton*
 
 John W. Miller for his excellent lyricsgenius wrapper.
+
 Authors, countless contributors for the various modules used in the project.
