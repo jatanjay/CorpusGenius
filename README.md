@@ -72,7 +72,37 @@ _____
 
 _____
 
-## Usage
+## Tips
+
+#### Tips when your artist is a band :
+
+Suppose if the specified artist is a band, take extra care while entering member names since small changes could change the final corpus. 
+For example,if your specified artist is The Beatles, then you'd enter individual band member names as -- 
+``John Lennon, Paul McCartney, George Harrison, Ringo Starr, Lennon-McCartney``
+
+Note: Lennon-McCartney is added since sometimes genius.com attributes songwriter credits as Lennon-McCartney rather than John Lennon and Paul McCartney.
+
+For example consider just entering band members names (excluding Lennon-McCartney)
+Granted it will work all good by skipping songs not written by "The Beatles + John Lennon, Paul McCartney, George Harrison, Ringo Starr"
+
+![](C:\Users\jayes\Desktop\beat1.JPG)
+
+But the moment a song that is stored on genius.com with song-writer credits for "Lennon-McCartney" -- 
+
+![](C:\Users\jayes\Desktop\beat2.JPG)
+
+We see it does exactly what we told, in this case results in a less accurate final corpus.
+
+##### So, what should I do?
+
+Thus for your specified artist, let the project run for a while and at any moment you feel songs are
+erroneously skipped, note down the name it is stored as and re-run CorpusGenius, this time adding
+it along with the earlier names. Since it's impossible to know under what names song-writers are credited, 
+a little trial & error is required :grin:
+
+#### Tips for viewing corpus :
+
+Note : If using Excel as your CSV reader, since Excel cannot read more than 32767 characters in a single cell, it might erroneously show words in random cells. If that happens use notepad to view.
 
 
 
@@ -144,7 +174,7 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
                / For the same reason Outtakes/Live performances are not excluded as artists usually change lyrics on
                the fly.
                Hence,should not be excluded as it'll affect the final corpus.
-   Lastly, Genius.com is a ever-changing website. A single word change for a song that is a live song will make
+   Lastly, Genius.com is an ever-changing website. A single word change for a song that is a live song will make
    it a unique song.
 
 2. ### "artist_name"_tracks.csv :
@@ -163,7 +193,7 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
    -----------------------------------------------------snip--------------------------------------------
    ```
 
-   ##### Further it isn't necessary that each song that releases is only through albums. As an example, consider an artist from India that happens to be [Most recorded artist in music history]( https://bit.ly/2LZlRcE ), Asha Bhosle. It may seem finding songs by albums should be enough. But it isn't. Song information is saved more broadly on genius.com and not just by albums. For example, for Asha Bhosle, there are only 4 Albums available on genius.com (partly because in India, songs are released as OST albums for the movie they were featured in rather than a separate album by the artist,Nonetheless, the list is incomplete for our purposes!) If just try to find songs by albums, we will have just 3 songs by Asha Bhosle, which is obviously nowhere near the real number (11,000 Songs at least). Thus It is important to search for uncategorized songs and append them to the final list. Also, songs can be released as EPs/demos/singles etc. Hence those songs too, should not be discarded. (So, even though there will be songs of same title or close, they are different. If not, they will be discarded later.)
+   ##### Further it isn't necessary that each song that releases is only through albums. As an example, consider an artist from India that happens to be [Most recorded artist in music history]( https://bit.ly/2LZlRcE ), Asha Bhosle. It may seem finding songs by albums should be enough. But it isn't. Song information is saved more broadly on genius.com and not just by albums. For example, for Asha Bhosle, there are only 4 Albums available on genius.com (partly because in India, songs are released as OST albums for the movie they were featured in rather than a separate album by the artist,Nonetheless, the list is incomplete for our purposes!) If we just try to find songs by albums, we will have just 3 songs by Asha Bhosle, which is obviously nowhere near the real number (11,000 Songs at least). Thus It is important to search for uncategorized songs and append them to the final list. Also, songs can be released as EPs/demos/singles etc. Hence those songs too, should not be discarded. (So, even though there will be songs of same title or close, they are different. If not, they will be discarded later.)
 
    For example after considering the edge case, above list of songs by Bob Dylan will look something like this (along  with their 'years' (not shown here)
 
@@ -264,8 +294,8 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
 
 6. ### "artist_name"_corpus.csv
 
-   Finally the CSV file containg all the lyrics all the songs attached back to back and stored in a single cell.
+   Finally the CSV file congaing all the lyrics all the songs attached back to back and stored in a single cell.
 
-   #### Note : If using Excel as your CSV reader, since Excel cannot read more than 32767 characters in a single cell, it might erroneously show words in random cells. If that happens use notepad etc. to view.
+   #### 
 
    
