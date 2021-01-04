@@ -127,14 +127,14 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
    special/bootlegs/live etc like -->
 
    ```
-   album title,                                                                song title,                song id
+   album title,                                                       song title,               song id
    
-   Under the Red Sky,                                                          10,000 Men,             	 200681
-   Under the Red Sky,                                                          2 X 2,                   	 200682
-   Blonde on Blonde,                                                           4th Time Around,         	 105774
-   Dylan (1973),                                                               A Fool Such as I,        	 199634
-   "The Bootleg Series, Vol. 9: The Witmark Demos: 1962-1964",                 A Hard Rain’s A-Gonna Fall,  105186
-   Bob Dylan’s Greatest Hits Vol. II ,                                         A Hard Rain’s A-Gonna Fall,  105186
+   Under the Red Sky,                                                 10,000 Men,             	 200681
+   Under the Red Sky,                                                 2 X 2,                    200682
+   Blonde on Blonde,                                                  4th Time Around,          105774
+   Dylan (1973),                                                      A Fool Such as I,         199634
+   "The Bootleg Series, Vol. 9: The Witmark Demos: 1962-1964",        A Hard Rain’s ...,		105186
+   Bob Dylan’s Greatest Hits Vol. II ,                                A Hard Rain’s ...,		105186
    -----------------------------------------------------snip------------------------------------------------------
    ```
 
