@@ -1,5 +1,7 @@
 
 
+
+
 # CorpusGenius.
 
 _____
@@ -164,21 +166,21 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
 
    ```
    song title                                        lyrics
-   -----------------------------------------------------snip--------------------------------------------
+   -----------------------------------------------------snip-----------------------------------
    .                                                                        .
    .                                                                        .                                     
    A Hard Rain’s  A-Gonna Fall [Gaslight 1962],       {
-                                                      Oh, where have you been, my blue-eyed son?
+                                                      Oh, where have you been, my blue-eyed 
+                                                      son?                  .
                                                                             .
-                                                                            .
-                                                      I’ve stepped in the middle of seven sad forests
-                                                      I’ve been out in front of a dozen dead oceans
-                                                      I’ve been ten thousand miles in the mouth of 
-                                                      a graveyard
+                                                      I’ve stepped in the middle of seven sad 
+                                                      forests I’ve been out in front of a dozen 
+                                                      dead oceans I’ve been ten thousand miles 
+                                                      in the mouth of a graveyard . . .
                                                       }                                                  
    .                                                                        .
    .                                                                        .
-   -----------------------------------------------------snip--------------------------------------------
+   -----------------------------------------------------snip------------------------------------
    ```
 
    Songs that are repeated will be added to the adjacent cell. This is because, even if the songs do have
@@ -195,7 +197,7 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
    -----------------------------------------------------snip--------------------------------------------
    .                         .
    .                         .
-   1966,        {'Well, your railroad gate, you know I just cant jump it Sometimes 
+   1966,        {'Well, your railroad gate, you know I just cant jump it Sometimes
    			it gets so hard, you see I just sitting here beating on my trumpet 
    			With all these promises you left for me But where are you tonight, 
    			sweet Marie?  Well, I waited for you when I was half sick Yes, I 
@@ -211,5 +213,24 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
    								.
    								.
                 }
-   -----------------------------------------------------snip--------------------------------------------
+   -----------------------------------------------------snip-------------------------------------------
    ```
+
+5. ### songs_not_by_"artist_name".csv
+
+   This CSV file containing exactly the subset of songs that are NOT written by the artist. Along with the title of the song, the csv file will also contain the original songwriter and the album it appears on for artist in question.
+
+   ```
+   
+   song title                  album title & original song writer (if available)
+   Mr. Bojangles,              "['N/A', {'Jerry Jeff Walker'}]","['Dylan (1973)', {'Jerry Jeff Walker'}]"
+   -----------------------------------------------------snip-------------------------------------------
+   ```
+
+   Thus here song "Mr. Bojangles" :
+               1) Is written by Jerry Jeff Walker and not Bob dylan.
+               2) But, recorded nonetheless on album Dylan (1973)
+               3) It is repeated twice since the song "Mr Bojangles" appears twice on the final song csv file
+               4) There is also a version of Mr.Bojangles on genius.com that doesn't have required info. hence set to "N/A"
+
+   For songs that have no album info. or song-writer info. on Genius.com will be set as "N/A" (Not available)
