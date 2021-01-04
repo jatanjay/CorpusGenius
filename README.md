@@ -74,14 +74,13 @@ _____
 
 Start by :
 
-``git clone https://github.com/jatanjay/CorpusGenius.git # or use GitHub Desktop directly, or from VCS in your fav. IDE``
+`git clone https://github.com/jatanjay/CorpusGenius.git` 
 
 When In the same current working directory :
 
-``pip install -r requirements.txt # will download all the required modules
-python corpusgenius.py # Run CorpusGenius!``
+`pip install -r requirements.txt` 
 
-All files will be stored in your current working directory
+#### All files will be stored in your current working directory
 
 _____
 
