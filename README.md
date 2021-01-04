@@ -78,7 +78,7 @@ Start by :
 git clone https://github.com/jatanjay/CorpusGenius.git # or use GitHub Desktop directly, or from VCS in your fav. IDE
 ```
 
-When In the same directory :
+When In the same current working directory :
 
 ```python
 pip install -r requirements.txt # will download all the required modules
