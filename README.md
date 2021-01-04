@@ -147,7 +147,6 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
    Under the Red Sky,                                   "10,000 Men",               200681
    Under the Red Sky,                                    2 X 2,                     200682
    N/A,                                                  2 X 2,                     200682
-   The Bootleg Series...,     						    32-20 Blues,               1686914
    N/A,                                                  32-20 Blues,               1686914
    N/A,                                                  4th Time Around,           105774
    Blonde on Blonde,                                     4th Time Around,           105774
@@ -157,3 +156,51 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
    ----------------------------------------------------snip-------------------------------------------------------
    ```
 
+   For songs that have no album info. on Genius.com will be set as "N/A" (Not available)
+
+3. ### "artist_name"_lyrics.csv :
+
+   CSV file thus generated will contain lryics by each song in fashion:
+
+   ```
+   song title                                        lyrics
+   ---------------------------------------------------------------------------------------------------------------
+   .                                                                        .
+   .                                                                        .                                     
+   A Hard Rain’s  A-Gonna Fall [Gaslight 1962],       {
+                                                      Oh, where have you been, my blue-eyed son?
+                                                                            .
+                                                                            .
+                                                      I’ve stepped in the middle of seven sad forests
+                                                      I’ve been out in front of a dozen dead oceans
+                                                      I’ve been ten thousand miles in the mouth of a graveyard
+                                                      }                                                       .
+   .                                                                        .
+   .                                                                        .
+   ------------------------------------------------------snip-----------------------------------------------------
+   ```
+
+   Songs that are repeated will be added to the adjacent cell. This is because, even if the songs do have
+   same title, it is possible that the lyrics can be different. As we saw, since artist change lyrics for songs in
+   the live performances, it's necessary two songs with same songs similar. Next, again since genius.com is an
+   ever-changing website, i.e. anytime a song's lyrics is changed, it will result in a new lyrics for that song and hence a different corpus in the end! And suppose if the two songs appended are completely same, they will be discarded since.
+
+4. ### "artist_name"_lyrics_by_years.csv:
+
+   This CSV file contains lyrics by album tracks for each album by year. For example, considering Bob Dylan's discography:
+
+   ```
+   year,            all_lyrics
+   ----------------------------------------------snip-------------------------------------------------------------
+   .                         .
+   .                         .
+   1966,        {'Well, your railroad gate, you know I just cant jump it Sometimes it gets so hard, you 					see I just sitting here beating on my trumpet With all these promises you left for me
+                But where are you tonight, sweet Marie?  Well, I waited for you when I was half sick
+   .            Yes, I waited for you when you hated me Well, I waited for you inside of the frozen 					  	traffic Yeah, when you knew I had some other place to be Now, where are you tonight 						sweet Marie? Well, anybody can be just like me, obviously But then, now again, not too 					   	many can be like you, fortunately  Well, six white horses that you . . . 
+   			[". . . and lyrics of all other songs released in the year 1966"]
+   .            }
+   2020,        { 				.
+                                .
+                }
+   ----------------------------------------------snip-------------------------------------------------------------
+   ```
