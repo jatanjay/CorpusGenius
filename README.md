@@ -287,19 +287,17 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
 
    ## Acknowledgments
 
-   > If I have seen further it is by standing on the shoulders of Giants. 
-> 														*-Isaac Newton*
-   
+   > If I have seen further it is by standing on the shoulders of Giants. *-Isaac Newton*
+
    John W. Miller for his excellent [lyricsgenius wrapper.](https://github.com/johnwmillr/lyricsgenius)
-
-   Authors, countless contributors for the various modules used in the project.
-
-   _______
-
-   ## License
-
-   Please see LICENSE.md for more details. 
-
-   _______
-
+   
+Authors, countless contributors for the various modules used in the project.
+   
+_______
+   
+## License
+   
+Please see LICENSE.md for more details. 
+   
+_______
    
