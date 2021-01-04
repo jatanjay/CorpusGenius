@@ -171,9 +171,8 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
    .                                                                     .                                     
    A Hard Rain’s  A-Gonna Fall [Gaslight 1962],       {
                                                       Oh, where have you been, my blue
-                                                      -eyed son?
-                                                      					.
-   											   I’ve stepped in the middle of seven 
+                                                      -eyed son? . . .
+                                                      I’ve stepped in the middle of seven 
                                                       sad forests I’ve been out in front 
                                                       of a dozen dead oceans I’ve been 
                                                       ten thousand miles in the mouth of 
