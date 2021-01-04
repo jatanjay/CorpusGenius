@@ -30,7 +30,7 @@ from difflib import SequenceMatcher
 from unidecode import unidecode
 import lyricsgenius
 import pandas as pd
-from colorama import Fore, Style
+from colorama import Fore, Style, init
 from requests.exceptions import Timeout
 
 
@@ -683,7 +683,7 @@ if __name__ == '__main__':
         "\nPlease enter the artist's name you'd like to generate CSV and other metadata for: "
     )
     first_last = artist_name.split()
-
+    init(convert=True)
     band_test = input(
         "\nIs the specified artist a Band?\n"
         "If yes, enter 'Y',"
