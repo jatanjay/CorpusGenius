@@ -300,5 +300,13 @@ _______
 
 Please see LICENSE.md for more details. 
 
+By using this tool you agree use the lyrics for personal purposes.
+As a reminder CorpusGenius is not responsible for your usage of the tool.
+Additional resources :: [lyricsgenius](https://lyricsgenius.readthedocs.io/en/master/how_it_works.html#lyrics) docs, [API Terms of Service](https://genius.com/static/terms)
+
 _______
+
+
+
+
 
