@@ -80,6 +80,10 @@ When In the same current working directory :
 
 `pip install -r requirements.txt` 
 
+Run CorpusGenius!
+
+`python corpusgenius.py`
+
 #### All files will be stored in your current working directory
 
 _____
