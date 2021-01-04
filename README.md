@@ -101,7 +101,7 @@ But the moment a song that is stored on genius.com with song-writer credits for 
 
 We see it does exactly what we told, in this case results in a less accurate final corpus.
 
-##### So, what should I do???
+##### So, what should I do?
 
 Thus for your specified artist, let the project run for a while and at any moment you feel songs are
 erroneously skipped, note down the name it is stored as and re-run CorpusGenius, this time adding
@@ -281,17 +281,15 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
 
 6. ### "artist_name"_corpus.csv
 
-   Finally the CSV file congaing all the lyrics all the songs attached back to back and stored in a single cell.
-
-   #### 
+   Finally the CSV file containing all the lyrics all the songs attached back to back and stored in a single cell.
 
    ________
 
    ## Acknowledgments
 
    > If I have seen further it is by standing on the shoulders of Giants. 
-   > 														*-Isaac Newton*
-
+> 														*-Isaac Newton*
+   
    John W. Miller for his excellent [lyricsgenius wrapper.](https://github.com/johnwmillr/lyricsgenius)
 
    Authors, countless contributors for the various modules used in the project.
