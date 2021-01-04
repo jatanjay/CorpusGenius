@@ -173,7 +173,8 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
                                                                             .
                                                       I’ve stepped in the middle of seven sad forests
                                                       I’ve been out in front of a dozen dead oceans
-                                                      I’ve been ten thousand miles in the mouth of a graveyard
+                                                      I’ve been ten thousand miles in the mouth of 
+                                                      a graveyard
                                                       }                                                  
    .                                                                        .
    .                                                                        .
@@ -194,14 +195,18 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
    -----------------------------------------------------snip--------------------------------------------
    .                         .
    .                         .
-   1966,        {'Well, your railroad gate, you know I just cant jump it Sometimes it gets so hard, you 					see I just sitting here beating on my trumpet With all these promises you left for me
-                But where are you tonight, sweet Marie?  Well, I waited for you when I was half sick
-   .            Yes, I waited for you when you hated me Well, I waited for you inside of the frozen 					  	traffic Yeah, when you knew I had some other place to be Now, where are you tonight 						sweet Marie? Well, anybody can be just like me, obviously But then, now again, not too 					   	many can be like you, fortunately  Well, six white horses that you . . . 
-   			.
+   1966,        {'Well, your railroad gate, you know I just cant jump it Sometimes 
+   			it gets so hard, you see I just sitting here beating on my trumpet 
+   			With all these promises you left for me But where are you tonight, 
+   			sweet Marie?  Well, I waited for you when I was half sick Yes, I 
+   			waited for you when you hated me. Well, I waited for you inside of 
+   			the frozen traffic Yeah, when you knew I had some other place to be Now, 
+   			where are you tonight sweet Marie? Well, anybody can be just like me, 
+   			obviously But then, now again, not too many can be like you, fortunately  
+   			Well, six white horses that you . . . 
    			". . . and lyrics of all other songs released in the year 1966"
-   			.
-   .            }
-   
+               }
+   .
    2020,        { 			   
    								.
    								.
