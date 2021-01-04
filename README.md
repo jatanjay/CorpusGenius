@@ -34,7 +34,7 @@ In comes CorpusGenius, a robust solution to generate a Corpus containing (along 
 
 Since, rather than skipping directly to lyrics for a song, it follows a waterfall model by going from :
 
-All Albums --> All songs by albums + unreleased/EPs/Misc songs --> Lyrics by each song --> Final corpus.
+All Albums --> All songs by albums + unreleased/EPs/Miscellaneous songs --> Lyrics by each song --> Final corpus.
 
 Thus, by using this python script you'll be able to download:
 
@@ -291,13 +291,14 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
 
    John W. Miller for his excellent [lyricsgenius wrapper.](https://github.com/johnwmillr/lyricsgenius)
    
+
 Authors, countless contributors for the various modules used in the project.
-   
+
 _______
-   
+
 ## License
-   
+
 Please see LICENSE.md for more details. 
-   
+
 _______
-   
+
