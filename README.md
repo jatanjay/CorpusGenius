@@ -13,19 +13,8 @@ _____
   * [License](#license)
   * [Acknowledgments](#acknowledgments)
   * [FAQs or Why the CSVs are the way they are](#faqs-or-why-the-csvs-are-the-way-they-are)
-    + ["artist_name"_albums.csv :](#-artist-name--albumscsv--)
+
     
-    + ["artist_name"_tracks.csv :](#-artist-name--trackscsv--)
-    
-    + ["artist_name"_lyrics.csv :](#-artist-name--lyricscsv--)
-    
-    + ["artist_name"_lyrics_by_years.csv :](#-artist-name--lyricsbyyearscsv--)
-    
-    + [songs_not_by_"artist_name".csv](#songs-not-by--artist-name-csv)
-    
-    + ["artist_name"_corpus.csv](#-artist-name--corpuscsv)
-    
-      
 
 
 
