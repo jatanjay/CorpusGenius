@@ -127,15 +127,33 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
    special/bootlegs/live etc like -->
 
    ```
-   album title,                                                       song title,               song id
-   Under the Red Sky,                                                 10,000 Men,             	 200681
-   Under the Red Sky,                                                 2 X 2,                    200682
-   Blonde on Blonde,                                                  4th Time Around,          105774
-   Dylan (1973),                                                      A Fool Such as I,         199634
-   "The Bootleg Series, Vol. 9: The Witmark Demos: 1962-1964",        A Hard Rain’s ...,		105186
-   Bob Dylan’s Greatest Hits Vol. II ,                                A Hard Rain’s ...,		105186
+   album title,                                                       song title,        	song id
+   Under the Red Sky,                                                 10,000 Men,        	200681
+   Under the Red Sky,                                                 2 X 2,              	200682
+   Blonde on Blonde,                                                  4th Time Around,    	105774
+   Dylan (1973),                                                      A Fool Such as I,   	199634
+   "The Bootleg Series, Vol. 9: The Witmark Demos: 1962-1964",        A Hard Rain’s ...,	105186
+   Bob Dylan’s Greatest Hits Vol. II ,                                A Hard Rain’s ...,	105186
    -----------------------------------------------------snip--------------------------------------------
    ```
 
    ##### Further it isn't necessary that each song that releases is only through albums. As an example, consider an artist from India that happens to be Most recorded artist in music history, Asha Bhosle.// source : https://bit.ly/2LZlRcE It may seem finding songs by albums should be enough. But it isn't. Song information is saved more broadly on genius.com and not just by albums. For example, for Asha Bhosle, there are only 4 Albums available on genius.com (partly because in India, songs are released as OST albums for the movie they were featured in rather than a separate album by the artist,Nonetheless, the list is incomplete for our purposes!) If just try to find songs by albums, we will have just 3 songs by Asha Bhosle, which is obviously nowhere near the real number (11,000 Songs at least). Thus It is important to search for uncategorized songs and append them to the final list. Also, songs can be released as EPs/demos/singles etc. Hence those songs too, should not be discarded. (So, even though there will be songs of same title or close, they are different. If not, they will be discarded later.)
+
+   For example after considering the edge case, above list of songs by Bob Dylan will look something like this (along  with their 'years' (not shown here)
+
+   ```
+   album title,                                         song title,                song id
+   N/A,                                                 "10,000 Men",               200681
+   Under the Red Sky,                                   "10,000 Men",               200681
+   Under the Red Sky,                                    2 X 2,                     200682
+   N/A,                                                  2 X 2,                     200682
+   The Bootleg Series...,     						    32-20 Blues,               1686914
+   N/A,                                                  32-20 Blues,               1686914
+   N/A,                                                  4th Time Around,           105774
+   Blonde on Blonde,                                     4th Time Around,           105774
+   Dylan (1973),                                         A Fool Such as I,          199634
+   N/A,                                                  A Fool Such as I,          199634
+   N/A,                                                 900 Miles from My Home,     1994655
+   ----------------------------------------------------snip-------------------------------------------------------
+   ```
 
