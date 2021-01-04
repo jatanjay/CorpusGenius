@@ -6,13 +6,20 @@ _____
 
 - [CorpusGenius.](#corpusgenius)
   * [What is CorpusGenius ?](#what-is-corpusgenius--)
+
   * [Requirements](#requirements)
+
   * [Getting Started](#getting-started)
+
   * [Running](#running)
+
   * [Author](#author)
-  * [License](#license)
-  * [Acknowledgments](#acknowledgments)
+
   * [FAQs or Why the CSVs are the way they are](#faqs-or-why-the-csvs-are-the-way-they-are)
+
+  * [License](#license)
+
+  * [Acknowledgments](#acknowledgments)
 
     
 
@@ -44,7 +51,8 @@ _____
 
 ## Requirements 
 
-pass
+Uses modules lyricsgenius, pandas, requests, unidecode, colorama etc.
+See [requirements.txt](requirements.txt) for details.
 
 _____
 
@@ -100,38 +108,17 @@ erroneously skipped, note down the name it is stored as and re-run CorpusGenius,
 it along with the earlier names. Since it's impossible to know under what names song-writers are credited, 
 a little trial & error is required :grin:
 
-#### Tips for viewing corpus :
+#### Tips for viewing the final corpus :
 
-Note : If using Excel as your CSV reader, since Excel cannot read more than 32767 characters in a single cell, it might erroneously show words in random cells. If that happens use notepad to view.
-
-
+Note : If using Excel as your CSV reader (and your corpus is huge) since Excel cannot read more than 32767 characters in a single cell, it might erroneously show words in random cells. If that happens open the file with Notepad or similar.
 
 _____
 
 ## Author 
 
-Jatan Pandya / 2020 
-
-
+Jatan J. Pandya (jpandya) © 2020 / https://github.com/jatanjay/
 
 _____
-
-## License
-
-Please see LICENSE.md for more details. 
-
-_____
-
-## Acknowledgments
-
-> If I have seen further it is by standing on the shoulders of Giants. 
-> 														*-Isaac Newton*
-
-John W. Miller for his excellent [lyricsgenius wrapper.](https://github.com/johnwmillr/lyricsgenius)
-
-Authors, countless contributors for the various modules used in the project.
-
-_______
 
 ## FAQs or Why the CSVs are the way they are 
 
@@ -180,7 +167,7 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
 2. ### "artist_name"_tracks.csv :
 
    Firstly it will find all songs by EACH album released by the artist, including box-sets/alternate albums/
-   special/bootlegs/live etc like -->
+   special/bootlegs/live etc. like -->
 
    ```
    album title,                                                       song title,        	song id
@@ -216,7 +203,7 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
 
 3. ### "artist_name"_lyrics.csv :
 
-   CSV file thus generated will contain lryics by each song in fashion:
+   CSV file thus generated will contain lyrics by each song in fashion:
 
    ```
    song title                                        lyrics
@@ -282,13 +269,13 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
 
    Thus here song "Mr. Bojangles" :
 
-   1. Is written by Jerry Jeff Walker and not Bob dylan.
+   1. Is written by Jerry Jeff Walker and not Bob Dylan.
 
    2. But, recorded nonetheless on album Dylan (1973)
 
    3. It is repeated twice since the song "Mr Bojangles" appears twice on the final song csv file
 
-   4. There is also a version of Mr.Bojangles on genius.com that doesn't have required info. hence set to "N/A"
+   4. There is also a version of Mr. Bojangles on genius.com that doesn't have required info. hence set to "N/A"
 
       For songs that have no album info. or song-writer info. on Genius.com will be set as "N/A" (Not available)
 
@@ -297,5 +284,24 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
    Finally the CSV file congaing all the lyrics all the songs attached back to back and stored in a single cell.
 
    #### 
+
+   ________
+
+   ## Acknowledgments
+
+   > If I have seen further it is by standing on the shoulders of Giants. 
+   > 														*-Isaac Newton*
+
+   John W. Miller for his excellent [lyricsgenius wrapper.](https://github.com/johnwmillr/lyricsgenius)
+
+   Authors, countless contributors for the various modules used in the project.
+
+   _______
+
+   ## License
+
+   Please see LICENSE.md for more details. 
+
+   _______
 
    
