@@ -101,7 +101,7 @@ But the moment a song that is stored on genius.com with song-writer credits for 
 
 We see it does exactly what we told, in this case results in a less accurate final corpus.
 
-##### So, what should I do?
+##### So, what should I do???
 
 Thus for your specified artist, let the project run for a while and at any moment you feel songs are
 erroneously skipped, note down the name it is stored as and re-run CorpusGenius, this time adding
