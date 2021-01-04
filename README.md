@@ -16,8 +16,6 @@ _____
 
     
 
-
-
 _____
 
 ## What is CorpusGenius ? 
@@ -25,7 +23,7 @@ _____
 Hey! :wave:  
 
 Glad you asked, while performing a corpus based analysis on artist Bob Dylan, I quickly noticed that there wasn't a single, updated file containing all the lyrics.   
-In comes CorpusGenius, a robust solution to generate a Corpus containing (along with other meta files, below)  lyrics by user-specified artist, scrapped from Genius.com using genius's API and John W. Miller's *lyricsgenius* wrapper.
+In comes CorpusGenius, a robust solution to generate a Corpus containing (along with other meta files, below)  lyrics by user-specified artist, scrapped from [Genius.com](https://genius.com/) using genius's API and John W. Miller's [*lyricsgenius*](https://github.com/johnwmillr/lyricsgenius) wrapper.
 
 Since, rather than skipping directly to lyrics for a song, it follows a waterfall model by going from :
 
@@ -52,11 +50,29 @@ _____
 
 ## Getting Started 
 
-pass
+Before you can start, you'll have to set up an API client - 
+
+- Start by reviewing the [API documentation page](https://docs.genius.com/) on [genius.com](https://genius.com/)
+- Read the [API Terms of Service](https://genius.com/static/terms) and make sure you understand and comply with them.
+- Sign up/Sign in on [Sign In](https://genius.com/signup_or_login) webpage.
+- When on the API clients webpage, go ahead and create your app. App name and app website URL are necessary to proceed. As far as website URL is required, any website works even your GitHub page.
+- Further, clicking save will redirect you to the credential page. 
+  Make sure you save the details on the webpage, with particular importance to Client Access token.
+- Onwards!
 
 _____
 
 ## Running
+
+
+
+
+
+
+
+_____
+
+## Usage
 
 
 
@@ -81,7 +97,7 @@ _____
 > If I have seen further it is by standing on the shoulders of Giants. 
 > 														*-Isaac Newton*
 
-John W. Miller for his excellent lyricsgenius wrapper.
+John W. Miller for his excellent [lyricsgenius wrapper.](https://github.com/johnwmillr/lyricsgenius)
 
 Authors, countless contributors for the various modules used in the project.
 
@@ -147,7 +163,7 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
    -----------------------------------------------------snip--------------------------------------------
    ```
 
-   ##### Further it isn't necessary that each song that releases is only through albums. As an example, consider an artist from India that happens to be Most recorded artist in music history, Asha Bhosle.// source : https://bit.ly/2LZlRcE It may seem finding songs by albums should be enough. But it isn't. Song information is saved more broadly on genius.com and not just by albums. For example, for Asha Bhosle, there are only 4 Albums available on genius.com (partly because in India, songs are released as OST albums for the movie they were featured in rather than a separate album by the artist,Nonetheless, the list is incomplete for our purposes!) If just try to find songs by albums, we will have just 3 songs by Asha Bhosle, which is obviously nowhere near the real number (11,000 Songs at least). Thus It is important to search for uncategorized songs and append them to the final list. Also, songs can be released as EPs/demos/singles etc. Hence those songs too, should not be discarded. (So, even though there will be songs of same title or close, they are different. If not, they will be discarded later.)
+   ##### Further it isn't necessary that each song that releases is only through albums. As an example, consider an artist from India that happens to be [Most recorded artist in music history]( https://bit.ly/2LZlRcE ), Asha Bhosle. It may seem finding songs by albums should be enough. But it isn't. Song information is saved more broadly on genius.com and not just by albums. For example, for Asha Bhosle, there are only 4 Albums available on genius.com (partly because in India, songs are released as OST albums for the movie they were featured in rather than a separate album by the artist,Nonetheless, the list is incomplete for our purposes!) If just try to find songs by albums, we will have just 3 songs by Asha Bhosle, which is obviously nowhere near the real number (11,000 Songs at least). Thus It is important to search for uncategorized songs and append them to the final list. Also, songs can be released as EPs/demos/singles etc. Hence those songs too, should not be discarded. (So, even though there will be songs of same title or close, they are different. If not, they will be discarded later.)
 
    For example after considering the edge case, above list of songs by Bob Dylan will look something like this (along  with their 'years' (not shown here)
 
