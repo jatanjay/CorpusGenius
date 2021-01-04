@@ -173,10 +173,11 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
                                                       Oh, where have you been, my blue-eyed 
                                                       son?                  .
                                                                             .
-                                                      I’ve stepped in the middle of seven sad 
-                                                      forests I’ve been out in front of a dozen 
-                                                      dead oceans I’ve been ten thousand miles 
-                                                      in the mouth of a graveyard . . .
+                                                      I’ve stepped in the middle of seven 
+                                                      sad forests I’ve been out in front 
+                                                      of a dozen dead oceans I’ve been 
+                                                      ten thousand miles in the mouth of 
+                                                      a graveyard . . .
                                                       }                                                  
    .                                                                        .
    .                                                                        .
@@ -221,16 +222,27 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
    This CSV file containing exactly the subset of songs that are NOT written by the artist. Along with the title of the song, the csv file will also contain the original songwriter and the album it appears on for artist in question.
 
    ```
-   
    song title                  album title & original song writer (if available)
    Mr. Bojangles,              "['N/A', {'Jerry Jeff Walker'}]","['Dylan (1973)', {'Jerry Jeff Walker'}]"
    -----------------------------------------------------snip-------------------------------------------
    ```
 
    Thus here song "Mr. Bojangles" :
-               1) Is written by Jerry Jeff Walker and not Bob dylan.
-               2) But, recorded nonetheless on album Dylan (1973)
-               3) It is repeated twice since the song "Mr Bojangles" appears twice on the final song csv file
-               4) There is also a version of Mr.Bojangles on genius.com that doesn't have required info. hence set to "N/A"
 
-   For songs that have no album info. or song-writer info. on Genius.com will be set as "N/A" (Not available)
+   1. Is written by Jerry Jeff Walker and not Bob dylan.
+
+   2. But, recorded nonetheless on album Dylan (1973)
+
+   3. It is repeated twice since the song "Mr Bojangles" appears twice on the final song csv file
+
+   4. There is also a version of Mr.Bojangles on genius.com that doesn't have required info. hence set to "N/A"
+
+      For songs that have no album info. or song-writer info. on Genius.com will be set as "N/A" (Not available)
+
+6. ### "artist_name"_corpus.csv
+
+   Finally the CSV file containg all the lyrics all the songs attached back to back and stored in a single cell.
+
+   #### Note : If using Excel as your CSV reader, since Excel cannot read more than 32767 characters in a single cell, it might erroneously show words in random cells. If that happens use notepad etc. to view.
+
+   
