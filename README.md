@@ -87,6 +87,14 @@ Run CorpusGenius!
 #### All files will be stored in your current working directory
 
 _____
+## Time
+
+It took 134.9138 minutes to generate corpus along with all other meta data for artist Bob Dylan 
+Details for Bob Dylan (albums : 63 , tracks : 1923 )
+
+From this we can approximate that it may take 4.2094789392 seconds for a song!
+_____
+
 
 ## Tips
 
