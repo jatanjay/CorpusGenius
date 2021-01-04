@@ -85,11 +85,11 @@ Note: Lennon-McCartney is added since sometimes genius.com attributes songwriter
 For example consider just entering band members names (excluding Lennon-McCartney)
 Granted it will work all good by skipping songs not written by "The Beatles + John Lennon, Paul McCartney, George Harrison, Ringo Starr"
 
-![](C:\Users\jayes\Desktop\beat1.JPG)
+![](beat1.JPG)
 
 But the moment a song that is stored on genius.com with song-writer credits for "Lennon-McCartney" -- 
 
-![](C:\Users\jayes\Desktop\beat2.JPG)
+![](beat2.JPG)
 
 We see it does exactly what we told, in this case results in a less accurate final corpus.
 
