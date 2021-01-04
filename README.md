@@ -166,13 +166,13 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
 
    ```
    song title                                        lyrics
-   -----------------------------------------------------snip-----------------------------------
-   .                                                                        .
-   .                                                                        .                                     
+   ----------------------------------------snip-----------------------------------
+   .                                                                     .
+   .                                                                     .                                     
    A Hard Rain’s  A-Gonna Fall [Gaslight 1962],       {
-                                                      Oh, where have you been, my blue-eyed 
-                                                      son?                  .
-                                                                            .
+                                                      Oh, where have you been, my blue
+                                                      -eyed son?                 
+                                                      					   .
                                                       I’ve stepped in the middle of seven 
                                                       sad forests I’ve been out in front 
                                                       of a dozen dead oceans I’ve been 
@@ -181,7 +181,7 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
                                                       }                                                  
    .                                                                        .
    .                                                                        .
-   -----------------------------------------------------snip------------------------------------
+   ----------------------------------------snip-----------------------------------
    ```
 
    Songs that are repeated will be added to the adjacent cell. This is because, even if the songs do have
