@@ -110,7 +110,7 @@ Note: Lennon-McCartney is added since sometimes genius.com attributes songwriter
 For example consider just entering band members names (excluding Lennon-McCartney)
 Granted it will work all good by skipping songs not written by "The Beatles + John Lennon, Paul McCartney, George Harrison, Ringo Starr"
 
-![](https://github.com/jatanjay/CorpusGenius/blob/main/meta/beat1.jpg)
+![](https://github.com/jatanjay/CorpusGenius/blob/main/meta/beat1.JPG)
 
 But the moment a song that is stored on genius.com with song-writer credits for "Lennon-McCartney" -- 
 
