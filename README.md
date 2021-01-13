@@ -27,7 +27,7 @@ _____
 
 ## What is CorpusGenius ? 
 
-Hey! :wave:  
+Hey! 👋  
 
 Glad you asked, while performing a corpus based analysis on artist Bob Dylan, I quickly noticed that there wasn't a single, updated file containing all the lyrics.   
 In comes CorpusGenius, a robust solution to generate a Corpus containing (along with other meta files, below)  lyrics by user-specified artist, scrapped from [Genius.com](https://genius.com/) using genius's API and John W. Miller's [*lyricsgenius*](https://github.com/johnwmillr/lyricsgenius) wrapper.
@@ -93,7 +93,7 @@ It took 134.9138 minutes to generate corpus along with all other meta data for a
 
 Details for Bob Dylan (albums : 63 , tracks : 1923 )
 
-From this we can approximate that it may take less than 4.2 seconds for a song!
+From this we can approximate that it may take less than 4.2 seconds to generate *all* data for a song.
 _____
 
 
@@ -110,11 +110,13 @@ Note: Lennon-McCartney is added since sometimes genius.com attributes songwriter
 For example consider just entering band members names (excluding Lennon-McCartney)
 Granted it will work all good by skipping songs not written by "The Beatles + John Lennon, Paul McCartney, George Harrison, Ringo Starr"
 
-![](https://github.com/jatanjay/CorpusGenius/blob/main/meta/beat1.JPG)
+[](https://github.com/jatanjay/CorpusGenius/blob/main/meta/beat1.JPG)
+[Original Beatles members](https://github.com/jatanjay/CorpusGenius/blob/main/meta/beat1.JPG)
 
 But the moment a song that is stored on genius.com with song-writer credits for "Lennon-McCartney" -- 
 
-![](https://github.com/jatanjay/CorpusGenius/blob/main/meta/beat2.JPG)
+[](https://github.com/jatanjay/CorpusGenius/blob/main/meta/beat2.JPG)
+[Exception!](https://github.com/jatanjay/CorpusGenius/blob/main/meta/beat2.JPG)
 
 We see it does exactly what we told, in this case results in a less accurate final corpus.
 
