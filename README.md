@@ -125,7 +125,7 @@ We see it does exactly what we told, in this case results in a less accurate fin
 Thus for your specified artist, let the project run for a while and at any moment you feel songs are
 erroneously skipped, note down the name it is stored as and re-run CorpusGenius, this time adding
 it along with the earlier names. Since it's impossible to know under what names song-writers are credited, 
-a little trial & error is required :grin:
+a little trial & error is required 😀
 
 #### Tips for viewing the final corpus :
 
@@ -304,7 +304,7 @@ Say we are interested in generating a corpus for Artist : Bob Dylan.
 
    ________
 
-   ## Acknowledgments
+## Acknowledgments
 
    > If I have seen further it is by standing on the shoulders of Giants. *-Isaac Newton*
 
